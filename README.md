@@ -4,6 +4,8 @@
 
 This cutting-edge project combines the power of YOLOv8s, FastAPI, and MongoDB to create a comprehensive vehicle license plate detection and storage system. It leverages deep learning for accurate plate detection and utilizes MongoDB for efficient data storage and management.
 
+![Detection](./data/output/masked_frame-190.jpg)
+
 ## Introduction
 In the ever-evolving landscape of computer vision and machine learning, two powerful technologies have emerged as key players in their respective domains: YOLO (You Only Look Once) and FastAPI. YOLO has gained fame for its real-time object detection capabilities, while FastAPI has earned a reputation as one of the most efficient and user-friendly web frameworks for building APIs. In this project, we'll explore the exciting synergy that can be achieved by hosting YOLOv8, a state-of-the-art YOLO variant, using Onnxruntime with FastAPI.
 
