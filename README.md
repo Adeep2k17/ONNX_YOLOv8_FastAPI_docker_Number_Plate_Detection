@@ -67,11 +67,11 @@ On the other side of the equation is YOLO, a groundbreaking object detection mod
       
       Let's nevigate to /object_to_json route and upload an image, get json data as an output as shown below:
 
-      ![obj-to-json](./images/obj-to-json.gif)
+      ![obj-to-json](./data/obj-to-json.gif)
 
       Let's nevigate to /object_to_image route and upload an image, get annotated image as an output as shown below:
 
-      ![obj-to-image](./images/obj-to-img.gif)
+      ![obj-to-image](./data/obj-to-img.gif)
       
 **Trained Model**:
 
