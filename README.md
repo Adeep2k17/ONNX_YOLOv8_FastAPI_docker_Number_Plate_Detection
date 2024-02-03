@@ -41,16 +41,38 @@ On the other side of the equation is YOLO, a groundbreaking object detection mod
 2. **Deployment**:
     * Run the FastAPI application using Docker Compose.
       ```shell
-      docker compose up --build
+      prompt> docker compose up --build
+      [+] Running 1/0
+       ✔ Container workspace-web-1  Created                                                                                                                                             0.0s 
+      Attaching to web-1
+      web-1  | INFO:     Will watch for changes in these directories: ['/app']
+      web-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+      web-1  | INFO:     Started reloader process [7] using StatReload
+      web-1  | INFO:     Started server process [9]
+      web-1  | INFO:     Waiting for application startup.
+      web-1  | INFO:     Application startup complete.
       ```
       Alternatively Run the FastAPI application without docker.
       ```shell
-      uvicorn main:app --reload --port 8000 --host 0.0.0.0
+      prompt> uvicorn main:app --reload --port 8000 --host 0.0.0.0
+      INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+      INFO:     Started reloader process [715325] using StatReload
+      INFO:     Started server process [715327]
+      INFO:     Waiting for application startup.
+      INFO:     Application startup complete.
       ```
-    * Send image requests to the API or use Swagger API to detect vehicle number plates.
+    * Let's navigate over to a browser at `http://0.0.0.0:8000/docs` and you'll see the swagger docs similar to the image below:
+   
+      ![swagger docs](./data/swagger_docs.png)
+      
+      Let's nevigate to /object_to_json route and upload an image, get json data as an output as shown below:
 
-        [http://0.0.0.0:8000/docs#/](http://0.0.0.0:8000/docs#/)
+      ![obj-to-json](./images/obj-to-json.gif)
 
+      Let's nevigate to /object_to_image route and upload an image, get annotated image as an output as shown below:
+
+      ![obj-to-image](./images/obj-to-img.gif)
+      
 **Trained Model**:
 
 * Download yolov8s onnx model trained on custom dataset\n
