@@ -58,8 +58,8 @@ On the other side of the equation is YOLO, a groundbreaking object detection mod
   [Model Link](https://drive.google.com/file/d/1KvJM6eCxFALhkhPB0oEUJk1FbAOph-Rq/view?usp=sharing)
 
 ## References
-    * [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
-    * [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/)
-    * [https://github.com/microsoft/onnxruntime](https://github.com/microsoft/onnxruntime)
+   - [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+   - [https://fastapi.tiangolo.com/tutorial/](https://fastapi.tiangolo.com/tutorial/)
+   - [https://github.com/microsoft/onnxruntime](https://github.com/microsoft/onnxruntime)
     
 
