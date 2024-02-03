@@ -65,11 +65,11 @@ On the other side of the equation is YOLO, a groundbreaking object detection mod
    
       ![swagger docs](./data/swagger_docs.png)
       
-      Let's nevigate to /object_to_json route and upload an image, get json data as an output as shown below:
+      Let's nevigate to `/object_to_json route` and upload an image, get json data as an output as shown below:
 
       ![obj-to-json](./data/obj-to-json.gif)
 
-      Let's nevigate to /object_to_image route and upload an image, get annotated image as an output as shown below:
+      Let's nevigate to `/object_to_image` route and upload an image, get annotated image as an output as shown below:
 
       ![obj-to-image](./data/obj-to-img.gif)
       
